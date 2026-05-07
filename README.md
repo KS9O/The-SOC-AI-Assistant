@@ -8,8 +8,7 @@ This application was not created to replace the human element of security operat
 
 The SOC Assistant acts as a digital companion. As the analyst performs their deep-dive triage, they hand off findings to the Assistant. The tool keeps the investigation organized, maintains a persistent triage queue, and leverages local AI to formulate professional reports, allowing the analyst to stay focused on the "how" and "why" of an attack rather than the manual labor of formatting.
 
-
-![alt text](<Dashboard overview.png>)
+![alt text](<assets/Dashboard overview.png>)
 
 ---
 
@@ -56,13 +55,12 @@ The extension is the primary point of interaction during the "Active Triage" pha
     *   `[WB]` Loading a specific incident directly into the primary AI Workbench.
     *   `[PIN]` The Evidence Snipper: Detects highlighted text on any webpage and pins it to the Evidence Vault as a forensic artifact.
 
-![alt text](<SOC Sidekick Extension.png>)
-
+![alt text](<assets/SOC Sidekick Extension.png>)
 ---
 
 ## Forensic Analysis & Reporting
 
-![alt text](<Local AI Models.png>)
+![alt text](<assets/Local AI Models.png>)
 
 Once the analyst has gathered their findings in the Assistant, the local AI engine (compatible with Ollama and OpenAI-v1 APIs) takes over the heavy lifting of documentation:
 
@@ -70,9 +68,8 @@ Once the analyst has gathered their findings in the Assistant, the local AI engi
 *   **Privacy-First:** All log analysis is processed locally. Sensitive data never leaves the analyst's machine.
 *   **Automated IOC Harvesting:** The system automatically extracts IPs, Hashes, and Domains from the generated report and organizes them into a dedicated Indicators tab for easy export to blocklists or watchlists.
 
-![alt text](<Investigation 1 of 2.png>)
-![alt text](<investigation 2 of 2.png>)
-
+![alt text](<assets/Investigation 1 of 2.png>)
+![alt text](<assets/investigation 2 of 2.png>)
 ---
 
 **Designed for professionals. Built for speed. Focused on security.**
