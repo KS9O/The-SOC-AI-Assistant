@@ -1,6 +1,8 @@
-# The SOC Assistant [v0.4]
+# The SOC AI Assistant [v0.4]
 
 The SOC Assistant is a high-performance desktop application designed to bridge the gap between raw security data and actionable intelligence. Built with a Tauri/Rust core and a React/TypeScript frontend, it provides SOC analysts with a local, secure environment to manage, triage, and analyze security incidents from AlienVault/LevelBlue ecosystems.
+
+The model used within the test was the qwen3.6-27b dense model, running on an RTX 3090ti, currently running at Q4_K_M quantization, with a context window of 100k fully offloaded to the GPU. The application has custom AI prompting to help assist the AI on how to think and report. 
 
 ## Mission Statement: The Analyst Sidekick
 
